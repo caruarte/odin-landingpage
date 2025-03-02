@@ -27,20 +27,47 @@ header, footer {
 }
 
 header {
-    padding: 30px 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header {
+    width: 65%;
+    margin: 30px auto;
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .sub-header {
+    width: 65%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 100px 0;
     gap: 30px;
 }
 
+.sub-header h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.sub-header div {
+    width: 400px;
+    flex: 1 1 auto;
+}
+
+.sub-header img {
+    max-width: 100%;
+    width: 750px;
+    flex: 1 1 auto;
+}
 
 
 .links ul {
@@ -58,15 +85,6 @@ header {
     color: #f9faf8;
 }
 
-.sub-header h1 {
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: 900;
-}
-
-.sub-header img {
-    width: 800px;
-}
 
 button {
     background-color: #3882f6;
