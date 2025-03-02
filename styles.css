@@ -26,6 +26,28 @@ header, footer {
     margin: 0;
 }
 
+header {
+    padding: 30px 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-header {
+    display: flex;
+    padding: 100px 0;
+    gap: 30px;
+}
+
+
+
+.links ul {
+    display: flex;
+    gap: 20px;
+}
+
 .header a, .sub-header p  {
     font-size: 18px;
     color: #E5E7EB;
@@ -42,9 +64,14 @@ header, footer {
     font-weight: 900;
 }
 
+.sub-header img {
+    width: 800px;
+}
+
 button {
     background-color: #3882f6;
     border: none;
+    font-size: 18px;
     border-radius: 5px;
     padding: 6px 25px;
     font-weight: 500;
