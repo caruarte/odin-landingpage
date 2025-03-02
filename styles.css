@@ -139,3 +139,17 @@ button {
     font-weight: bold;
     text-align: end;
 }
+
+.action-section {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    color: #fff;
+    padding: 30px 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
