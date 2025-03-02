@@ -117,3 +117,25 @@ button {
     border: 5px solid #3882f6;
     border-radius: 30px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    
+}
+.quote-section div {
+    width: 50%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
