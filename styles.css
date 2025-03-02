@@ -79,6 +79,10 @@ button {
 }
 
 
+.information {
+    margin: 30px 300px 80px;
+}
+
 .information h2 {
     text-align: center;
     font-size: 36px;
@@ -89,6 +93,7 @@ button {
 
 .information h3 {
     color: #1f2937;
+    margin-top: 10px;
 }
 
 .information p {
@@ -96,6 +101,19 @@ button {
     font-size: 18px;
 }
 
+.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
 .destination {
     text-align: center;
+    width: 200px;
+    flex: 1 1 auto;
+}
+
+.destination img {
+    border: 5px solid #3882f6;
+    border-radius: 30px;
 }
